@@ -1,4 +1,4 @@
 rm -f first/*
 ./allocate &
-sleep 5
+sleep 1
 sudo criu dump -t $! -D first/ -j 
